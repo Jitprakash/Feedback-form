@@ -9,6 +9,7 @@ public class FeedbackDB {
     private static final String url ="jdbc:mysql://localhost:3306/feedback_form";
     private static final String username= "root";
     private static final String password="Jit@2004";
+    private static final String password="Your-Password";
 
     public static Connection dbConnection()  {
       try {
