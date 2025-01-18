@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image:url("https://cdn.pixabay.com/photo/2020/04/04/03/42/chat-5000695_640.png");
+    color: antiquewhite;
+    font-family: Arial, sans-serif;
+}
+.container{
+       width:100%;
+       height:700px;
+        display: flex;
+        flex-direction:column;
+        justify-content: center; /* Center horizontally */
+        align-items: center;
+        /* background:blue; */
+}
+.container h1{
+color:black;
+ margin: 20px;
+ padding: 20px
+}
+.feedback-form{
+    height:600px;
+    width:500px;
+    /*max-width: 400px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid blue;
+    /*background-image:url("https://cdn.pixabay.com/photo/2020/02/28/16/18/board-4887880_640.jpg");*/
+    /*background-color: #30b26b;*/
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.feedback-form>label{
+    font-family:Italic;
+    position:relative;
+    top:20px;
+    right:75px;
+    color:#1a237e;
+    /*background:#039be5 ;*/
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 30px;
+    float:left;
+}
+#mail-label{
+    right:96px;
+}
+.feedback-form> input{
+     width: 400px;
+     background:none;
+     padding: 10px;
+     margin-bottom: 20px;
+     border: 2px solid blue;
+     border-radius: 10px;
+     font-size: 20px;
+     font-family:'Times New Roman',serif;
+}
+.feedback-form>textarea{
+    height: 200px;
+    width: 400px;
+    resize: none;
+    background:none;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight:bold;
+    font-family:'Times New Roman',serif;
+}
+.feedback-form>.btn{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.feedback-form>.btn>button{
+    height: 45px;
+    width:200px;
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.feedback-form>.btn>button:hover{
+background-color:#18ffff;
+color:black;
+transition: 1s ease;
+}
